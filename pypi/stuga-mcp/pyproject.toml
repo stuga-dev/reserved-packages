@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "stuga-mcp"
+version = "0.0.1"
+description = "Stuga's MCP server runs on your Stuga node, not from PyPI. Running this prints how to connect."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.9"
+keywords = ["stuga", "mcp"]
+
+[project.urls]
+Homepage = "https://stuga.dev"
+Documentation = "https://github.com/stuga-dev/stuga/blob/main/docs/agents.md"
+Source = "https://github.com/stuga-dev/reserved-packages"
+
+[project.scripts]
+stuga-mcp = "stuga_mcp:main"

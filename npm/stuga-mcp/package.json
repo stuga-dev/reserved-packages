@@ -1,0 +1,25 @@
+{
+  "name": "stuga-mcp",
+  "version": "0.0.1",
+  "description": "Stuga's MCP server runs on your Stuga node, not from npm. Running this prints how to connect.",
+  "license": "MIT",
+  "bin": {
+    "stuga-mcp": "index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "stuga",
+    "mcp"
+  ],
+  "homepage": "https://stuga.dev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stuga-dev/reserved-packages.git",
+    "directory": "npm/stuga-mcp"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "stuga",
+  "version": "0.0.1",
+  "description": "Stuga is not installed from npm. Running this prints how to install it.",
+  "license": "MIT",
+  "bin": {
+    "stuga": "index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "stuga"
+  ],
+  "homepage": "https://stuga.dev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stuga-dev/reserved-packages.git",
+    "directory": "npm/stuga"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
