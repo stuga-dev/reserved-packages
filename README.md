@@ -7,7 +7,6 @@ variables and no files, and have no dependencies or install scripts.
 | Registry | Name | Prints |
 |---|---|---|
 | npm | [`stuga-mcp`](npm/stuga-mcp) | How to connect an MCP client to your Stuga node |
-| npm | [`stuga`](npm/stuga) | How to install Stuga |
 | PyPI | [`stuga-mcp`](pypi/stuga-mcp) | How to connect an MCP client to your Stuga node |
 
 Stuga's own packages on npm are under the `@stuga` scope, such as

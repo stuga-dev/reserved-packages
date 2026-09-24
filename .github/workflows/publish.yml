@@ -8,7 +8,6 @@ on:
         type: choice
         options:
           - npm/stuga-mcp
-          - npm/stuga
           - pypi/stuga-mcp
 
 permissions: {}
