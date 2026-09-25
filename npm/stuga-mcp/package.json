@@ -1,7 +1,7 @@
 {
   "name": "stuga-mcp",
-  "version": "0.0.1",
-  "description": "Stuga's MCP server runs on your Stuga node, not from npm. Running this prints how to connect.",
+  "version": "0.0.2",
+  "description": "A placeholder: Stuga's MCP server runs on your node, and its local server is @stuga/mcp. Running this prints how to connect.",
   "license": "MIT",
   "bin": {
     "stuga-mcp": "index.js"
